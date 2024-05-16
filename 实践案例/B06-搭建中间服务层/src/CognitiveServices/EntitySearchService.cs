@@ -9,9 +9,9 @@ namespace CognitiveMiddlewareService.CognitiveServices
 {
     public class EntitySearchService : IEntitySearchService
     {
-        const string SearchEntityEndpoint = "https://api.cognitive.microsoft.com/bing/v7.0/entities?mkt=en-US&q=";
-        const string Key1 = "a0be81dfa8ad449481492ca11107645b";
-        const string Key2 = "0803e46738294f9abb7487dd8c3db6dd";
+        const string SearchEntityEndpoint = "https://******/bing/v7.0/entities?mkt=en-US&q=";
+        const string Key1 = "********************************";
+        const string Key2 = "********************************";
 
         private readonly IHttpClientFactory httpClientFactory;
 

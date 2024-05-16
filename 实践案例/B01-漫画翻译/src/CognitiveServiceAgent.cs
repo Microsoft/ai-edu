@@ -16,15 +16,15 @@ namespace CartoonTranslate
 {
     class CognitiveServiceAgent
     {
-        const string OcrEndPointV1 = "https://eastasia.api.cognitive.microsoft.com/vision/v2.0/ocr?detectOrientation=true&language=";
-        const string OcrEndPointV2 = "https://westcentralus.api.cognitive.microsoft.com/vision/v2.0/recognizeText?mode=Printed";
-        const string VisionKey1 = "0e2908726aed45d692f6fb97bb621f71";
-        const string VisionKey2 = "97992f09b87e4be6b52be132309b8e57";
+        const string OcrEndPointV1 = "https://******/vision/v2.0/ocr?detectOrientation=true&language=";
+        const string OcrEndPointV2 = "https://******/vision/v2.0/recognizeText?mode=Printed";
+        const string VisionKey1 = "********************************";
+        const string VisionKey2 = "********************************";
         const string UrlContentTemplate = "{{\"url\":\"{0}\"}}";
 
-        const string TranslateEndPoint = "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from={0}&to={1}";
-        const string TKey1 = "04023df36a4c4599b1fc82510b48826c";
-        const string TKey2 = "9f763817f48549c6b503dae4a0d80a80";
+        const string TranslateEndPoint = "https://******/translate?api-version=3.0&from={0}&to={1}";
+        const string TKey1 = "********************************";
+        const string TKey2 = "********************************";
 
         public static async Task<List<string>> DoTranslate(List<string> text, string fromLanguage, string toLanguage)
         {

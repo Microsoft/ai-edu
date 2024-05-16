@@ -13,10 +13,10 @@ namespace CognitiveMiddlewareService.CognitiveServices
     public class VisionService : IVisionService
     {
 
-        const string LandmarkEndpoint = "https://eastasia.api.cognitive.microsoft.com/vision/v2.0/models/landmarks/analyze";
-        const string CelebrityEndpoint = "https://eastasia.api.cognitive.microsoft.com/vision/v2.0/models/celebrities/analyze";
-        const string Key1 = "0e2908726aed45d692f6fb97bb621f71";
-        const string Key2 = "97992f09b87e4be6b52be132309b8e57";
+        const string LandmarkEndpoint = "https://******/vision/v2.0/models/landmarks/analyze";
+        const string CelebrityEndpoint = "https://******/vision/v2.0/models/celebrities/analyze";
+        const string Key1 = "********************************";
+        const string Key2 = "********************************";
 
         private readonly IHttpClientFactory httpClientFactory;
 

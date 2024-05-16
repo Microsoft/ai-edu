@@ -11,9 +11,9 @@ namespace QAClient
 {
     class QAServiceAgent
     {
-        const string Endpoint = "/knowledgebases/82ec641a-e00e-4eb6-aec1-db6a2d4b6bc4/generateAnswer";
-        const string Host = "https://schoolqasystem.azurewebsites.net/qnamaker";
-        const string Key = "7dab59b1-2e76-453d-942e-c7d088d6865c";
+        const string Endpoint = "/knowledgebases/********-****-****-****-************/generateAnswer";
+        const string Host = "https://******/qnamaker";
+        const string Key = "********-****-****-****-************";
         const string ContentType = "application/json";
         // {"question":"<Your question>"}
 
