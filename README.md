@@ -45,7 +45,6 @@
                     <li><a href="./基础教程/A2-神经网络基本原理/README.md">2.神经网络基本原理</a></li>
                     <li><a href="./基础教程/A3-神经网络高级模型（征稿）/README.md">3.神经网络高级模型</a></li>
                     <li><a href="./基础教程/A4-经典机器学习算法（更新中）/README.md">4.经典机器学习算法</a></li>
-                    <li><a href="./基础教程/A5-现代软件工程（更新中）/README.md">5.现代软件工程</a></li>
                     <li><a href="./基础教程/A6-人工智能系统/README.md">6.人工智能系统</a></li>
                     <li><a href="./基础教程/README.md">更多...</a></li>
                 </ul>
