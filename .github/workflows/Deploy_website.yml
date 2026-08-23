@@ -21,15 +21,15 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@0717577d45739eb3c851188b29f50ed6c0b2194e # v2.8.0
 
       # Set up Python env
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e # v2.3.4
         with:
           python-version: 3.x
           
       # Set up Node.js env
-      - uses: actions/setup-node@v2.1.5
+      - uses: actions/setup-node@46071b5c7a2e0c34e49c3cb8a0e792e86e18d5ea # v2.1.5
 
       # Move content to Docs
       - run: mv './基础教程' ./docs/基础教程
